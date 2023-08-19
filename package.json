@@ -1,15 +1,17 @@
 {
-  "name": "olegponomar-wp",
+  "name": "defenceline-wp",
   "version": "0.0.1",
   "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "homepage": "https://bdimon.github.io/defenseline",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
     "lint": "ionic-app-scripts lint",
     "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve"
+    "ionic:serve": "ionic-app-scripts serve",
+    "predeploy": "ionic-app-scripts build",
+    "deploy": "gh-pages -d www"
   },
   "dependencies": {
     "@angular/animations": "5.2.10",
